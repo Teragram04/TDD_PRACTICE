@@ -1,19 +1,18 @@
-import json
-from typing import List
-# Note: Item class must be defined in item.py
-from item import Item
+from Virtual_Store import Item
 
-def read(filepath: str = 'inventory.json') -> List[Item]:
-    """Reads the JSON file and returns a list of Item objects."""
-    # File opening handles FileNotFoundError and IOError implicitly.
-    # json.load handles JSONDecodeError implicitly.
-    with open(filepath, 'r') as f:
-        data = json.load(f)
+def test_item():
+   assert 
     
-    # Converts list of dictionaries to list of Item objects in a single line
-    # Note: This relies on the keys ('name', 'price', 'count') being present.
-    return [Item(d['name'], d['price'], d['count']) for d in data]
+def test_view_cart():
+    assert 
 
-def test_view_items():
-  
-  assert items_in_cart == 5
+def test_add_item():
+    assert
+
+def test_total_price():
+    assert
+
+def test_check_quantity():
+    assert
+
+def test_check_stock():
