@@ -1,6 +1,5 @@
 
 #Read in Json file
-
 import json
 from typing import List
 # Note: Item class must be defined in item.py
@@ -16,3 +15,7 @@ def read(filepath: str = 'inventory.json') -> List[Item]:
     # Converts list of dictionaries to list of Item objects in a single line
     # Note: This relies on the keys ('name', 'price', 'count') being present.
     return [Item(d['name'], d['price'], d['count']) for d in data]
+
+class Item:
+    def __init__(self, name, count, price):
+
