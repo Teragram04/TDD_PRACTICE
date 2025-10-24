@@ -22,3 +22,7 @@ class Item:
         self.count = count
         self. price = price
 
+    def get_price(self, price):
+        return price
+        
+
