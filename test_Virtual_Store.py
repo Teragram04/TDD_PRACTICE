@@ -5,16 +5,16 @@ def test_item_price():
   
    
     
-def test_view_cart():
-    assert 
+#def test_view_cart():
+#    assert 
 
-def test_add_item():
-    assert
+#def test_add_item():
+#    assert
 
-def test_total_price():
-    assert
+#def test_total_price():
+#    assert
 
-def test_check_quantity():
-    assert
+#def test_check_quantity():
+#    assert
 
-def test_check_stock():
+#def test_check_stock():
