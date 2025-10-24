@@ -1,7 +1,8 @@
 from Virtual_Store import Item
 
-def test_item(self):
-  item = Virtual_Store.get_item(name, count, price)
+def test_item_price():
+  item_price = Item.get_price(price)
+  
    
     
 def test_view_cart():
